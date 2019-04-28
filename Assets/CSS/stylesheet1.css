@@ -1,0 +1,278 @@
+body {
+    font-family: "Georgia, Times, 'Times New Roman', serif";
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin: 0px;  
+    position: fixed; 
+}
+
+
+.topWrapper {
+    background-color: #ffffff;
+          
+}
+
+
+.topHeaders {
+    width: 1000px;
+    margin: auto;   
+} 
+
+
+header {
+    font-family: "Georgia";
+    color: #ffffff;
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 270px;
+    padding: 2px;
+    float: left;          
+}
+
+
+.links {
+    background-color: #ffffff;
+    width: 203px;
+    padding: 25px;
+    padding-right: 0px;
+    float: right;    
+}
+
+
+.spacer {
+    color: #eeeeee;
+}
+
+
+a {
+    text-decoration: none;
+    text-align: right;
+    color: #777777;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+
+a.about:hover, a.portfolio:hover, a.contact:hover {
+    color: #4aaaa5;
+}
+
+
+.bottomWrapper {
+    width: 1436px;
+    height: 501px;
+    margin: 0;
+    background-image: url("../../Assets/Images/concrete_seamless.png"); 
+    padding: 50px;
+    border-top: 1px solid #cccccc;
+    clear: both;
+    
+}
+
+
+.bioBox {
+    width: 960px;
+    padding: 20px;
+    margin:auto;
+    margin-left: 219px;
+    background-color:#ffffff;
+        
+    border: 1px solid #dddddd;
+    float: left;
+}
+
+
+.mainContentBox {
+    padding-left: 4px;
+    padding-bottom: 15px;
+    float:left;
+}
+
+
+#aboutMe {
+    color: #4aaaa5;
+    font-family: Georgia;
+}
+
+
+#linebreak {
+    background-color: #e7e7e7;
+    height: .25px; 
+    margin-bottom: 20px;  
+}
+
+
+#profilePicture {    
+    width: 100px;
+    height: 168px;
+    margin: 4px 12px 10px 0px;
+    float: left;
+}
+
+
+p {
+    color: #777777; 
+    font-family: Arial;
+    font-size: 14px; 
+    line-height: 2.0;   
+}
+
+
+footer {
+    background-color: #666666;
+    width: 1536px;
+    height: 40px;
+    clear: both;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    position: relative; 
+}
+
+
+#footerText {  
+    color: #aaaaaa;
+    font-size: 10px;  
+    bottom: 0; 
+    padding-bottom: 5px;  
+    position: absolute;  
+}
+
+
+@media screen and (max-width: 980px) {
+
+.topHeaders {
+     width: 100%;
+    margin-left: 50px;
+}
+    
+.links {
+    width: 53%;
+    margin-right: 64px;
+}
+    
+.bioBox {
+    width: 57.5%;
+    margin: auto;
+}
+    
+footer {
+    width: 63%;
+    margin-bottom: 10px;
+}
+    
+#footerText {
+    padding-bottom: 10px;
+}
+    
+}
+
+
+@media screen and (max-width: 768px) {
+
+.topHeaders {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.links {
+    width: 66%;
+    margin-right: 70px;
+}
+
+.bioBox {
+    width: 43%;
+    margin: auto;
+}
+
+.bottomWrapper {
+    height: 810px;
+}
+
+footer {
+    width: 50%;
+    
+}
+
+#footerText {
+    padding-bottom: 10px;
+}
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+body {    
+    height: 640px;
+    width: 360px
+}
+
+.topHeaders {
+    width: 100%;
+    margin: 0;
+    font-size: 14px;
+}
+
+header {
+    width: 360px;
+    padding: 5px
+}
+    
+.links {
+    width: 360px;
+    padding: 10px;
+    margin-left: 20px;
+    margin: auto;
+}
+
+.about {
+    margin-left: 96px;
+}
+    
+.bottomWrapper {
+    height: 480px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+}
+
+.bioBox {
+    width: 18%;    
+    margin:auto;
+    padding-bottom :0px;
+}
+
+.mainContentBox {
+    padding-bottom: 0px;
+}
+
+#aboutMe {
+    font-size: 20px;
+}
+
+#profilePicture {
+    margin-left: 70px;
+    width: 90px;
+    height: 110px;  
+    margin-top: 0px;    
+}
+
+#paragraph {
+    clear: both;
+    width: 100%;
+    font-size: 10px;
+    padding-bottom: 0px
+}
+    
+footer {
+    width: 360px;
+}
+    
+#footerText {
+    padding-bottom: 10px;
+    
+    
+}
+    
+}
+
